@@ -1,0 +1,3 @@
+interface Fixable {
+    void fixed();
+}
