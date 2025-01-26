@@ -34,7 +34,6 @@ class Garage {
         }
     }
 
-    // Add these two methods:
     public ArrayList<Vehicle> getVehicles() {
         return vehicles;
     }
