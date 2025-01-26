@@ -14,7 +14,7 @@ class MainScreen implements ProtocolGarage {
         System.out.println("Enter the number of vehicles you want to add:");
 
         int n = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         for (int i = 0; i < n; i++) {
             System.out.println("Enter 1 for Motorcycle, 2 for Car, 3 for Truck:");
